@@ -1,0 +1,29 @@
+{
+    "printWidth": 80,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "endOfLine": "auto",
+    "useTabs": false,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "importOrder": [
+        "react",
+        ".",
+        "redux/(.*)$",
+        "routes/(.*)$",
+        "components/(.*)$",
+        "scenes/(.*)$",
+        "hooks/(.*)$",
+        "models/(.*)$",
+        "services/(.*)$",
+        "assets/(.*)$",
+        "config/(.*)$",
+        "utils/(.*)$",
+        "^[./]",
+        ".scss",
+        ".css"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+}
